@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -eou pipefail
+
 PROJECT=appscode-testing
 
 for entry in $(gcloud container clusters list --project=$PROJECT --format='csv[no-heading](name,zone)'); do
