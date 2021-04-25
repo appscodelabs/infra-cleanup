@@ -1,4 +1,4 @@
-name: Cleanup
+name: Google Cloud Cleanup
 
 on:
   push:
@@ -30,4 +30,4 @@ jobs:
 
       - name: Cleanup
         run: |
-          ./hack/scripts/cleanup.sh
+          ./hack/scripts/gcloud-cleanup.sh
