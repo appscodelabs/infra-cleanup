@@ -29,3 +29,5 @@ jobs:
           LINODE_CLI_TOKEN: ${{ secrets.LINODE_CLI_TOKEN }}
         run: |
           ./hack/scripts/linode-cleanup.sh
+          ./hack/scripts/linode-cleanup.sh
+          ./hack/scripts/linode-cleanup.sh
